@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Numerical Solution of Navier-Stokes Equation
+title: Paper Evaluation #1
 subtitle: Overview of Fluid Simulation
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/fluid-simulation.jpg
+share-img: /assets/img/fluid-simulation.jpg
+share-img: /assets/img/fluid-simulation.jpg
 tags: [papers, fluid simulation]
 author: Henry Han
 ---
+
 # Fluid Simulation For Computer Graphics: A Tutorial in Grid Based and Particle Based Methods
 
 *Colin Braley & Adrian Sandu - Virginia Tech*
@@ -46,10 +47,13 @@ This paper introduce a different set of methods of CFL to speed up the simulatio
 
 # One thing I don't like about the paper
 
-The author did not explain well the differences of Navier-Stokes equation in Euler and Lagrangian representation. For example, the left-hand side of the equation $\frac{\partial \vec{u}}{\partial t} + \vec{u}$ is a Lagrangian representation, while we have $\frac{D \vec{u}}{D t}$ in Euler representation. There are different math background of the two.
+The author did not explain well the differences of Navier-Stokes equation in Euler and Lagrangian representation. For example, the left-hand side of the equation 
 
-# Questions for the Authors (Two)
+$\frac{\partial \vec{u}}{\partial t} + \vec{u}$ 
 
-1. How does hybrid approach (mixed point based and grid based) works?
+is a Lagrangian representation, while we have 
 
-2. How to preserve the volumn (mass) when we adopt surface construction method in point based? 
+$\frac{D \vec{u}}{D t}$ 
+
+in Euler representation. There are different math background of the two.
+
