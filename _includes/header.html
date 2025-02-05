@@ -19,9 +19,9 @@
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
 <div class="intro-header {% if page.cover-img %} big-img {% endif %}">
   {% if page.cover-img or page.title %}
-  <div class="container-md">
+  <div class="container-xl">
     <div class="row">
-      <div class="col-xl-10 offset-xl-1 col-lg-12">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-xl-1">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
           {% if page.subtitle %}
