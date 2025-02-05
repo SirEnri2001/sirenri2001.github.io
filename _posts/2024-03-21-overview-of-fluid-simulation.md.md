@@ -5,7 +5,7 @@ subtitle: Taichi implementation for Fluid Simulation
 cover-img: /assets/img/fluid-simulation.jpg
 share-img: /assets/img/fluid-simulation.jpg
 share-img: /assets/img/fluid-simulation.jpg
-tags: [papers, fluid simulation]
+tags: [Tutorial, Fluid Simulation]
 author: Henry Han
 ---
 

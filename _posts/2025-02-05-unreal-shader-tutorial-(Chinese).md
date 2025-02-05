@@ -1,3 +1,14 @@
+---
+layout: post
+title: Unreal Shader Tutorial (Chinese Version)
+subtitle: Implement a Compute Shader and Graphics Shader from scratch
+cover-img: /assets/img/unrealshadertutorial/image-16.png
+share-img: /assets/img/unrealshadertutorial/image-16.png
+share-img: /assets/img/unrealshadertutorial/image-16.png
+tags: [Unreal Engine, Tutorial]
+author: Henry Han
+---
+
 # Chapter 1. 引擎编译和工程创建
 
 # 1.1 从源代码编译UE引擎

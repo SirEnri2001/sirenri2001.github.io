@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Paper Evaluation #1
-subtitle: Overview of Fluid Simulation
+title: Fluid Simulation Overview - Paper Evaluation &#x23;1
+subtitle: An Overall Digest of Classical Fluid Simulation Methods
 cover-img: /assets/img/fluid-simulation.jpg
 share-img: /assets/img/fluid-simulation.jpg
 share-img: /assets/img/fluid-simulation.jpg
-tags: [papers, fluid simulation]
+tags: [Papers, Fluid Simulation]
 author: Henry Han
 ---
 
