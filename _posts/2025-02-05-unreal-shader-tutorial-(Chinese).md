@@ -45,7 +45,7 @@ https://dev.epicgames.com/documentation/en-us/unreal-engine/building-unreal-engi
 
 编写代码：
 
-```C#
+```c#
 // ExampleComputeShader.Build.cs
 using UnrealBuildTool;
 
@@ -70,7 +70,7 @@ public class ExampleComputeShader : ModuleRules
 }
 ```
 
-```C++
+```c++
 // ExampleComputeShaderModule.h
 #include "Modules/ModuleManager.h"
 
@@ -134,7 +134,7 @@ r.DumpShaderDebugInfo=1
 
 打开项目根目录，新建Shaders/ExampleComputeShader.usf文件，输入HLSL代码：
 
-```c
+```c++
 // ExampleComputeShader.usf
 #include "/Engine/Public/Platform.ush"
 
@@ -522,7 +522,7 @@ void FShaderFunctionLibraryModule::StartupModule()
 
 # 3.1 编写usf文件
 
-```c
+```c++
 // ExampleGrapihcsShader.usf
 #include "/Engine/Public/Platform.ush"
 // HLSL代码的文档见https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-reference
