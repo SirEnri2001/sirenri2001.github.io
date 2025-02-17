@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unreal Shader Tutorial (Chinese Version)
+title: Unreal Shader Tutorial - Chinese Ver.
 subtitle: Implement a Compute Shader and Graphics Shader from scratch
 cover-img: /assets/img/unrealshadertutorial/image-16.png
 share-img: /assets/img/unrealshadertutorial/image-16.png
