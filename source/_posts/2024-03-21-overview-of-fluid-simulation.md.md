@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fluid Simulation - Concept and Practice
+date: 2024/03/21 00:00:00
 subtitle: Taichi implementation for Fluid Simulation
 tags: [Tutorial, Fluid Simulation]
 author: Henry Han

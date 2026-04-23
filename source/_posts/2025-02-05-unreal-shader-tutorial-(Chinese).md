@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unreal Shader Tutorial - Chinese Ver.
+date: 2025/02/05 00:00:00
 subtitle: Implement a Compute Shader and Graphics Shader from scratch
 tags: [Unreal Engine, Tutorial]
 author: Henry Han

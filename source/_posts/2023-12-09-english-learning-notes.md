@@ -1,6 +1,7 @@
 ---
 layout: post
 title: English Learning Notes - Chinese Ver.
+date: 2023/12/09 00:00:00
 subtitle: How to Expand Your Vocabulary with Great Efficiency
 tags: [Tutorial, English Learning]
 author: Henry Han

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fluid Simulation Overview - Paper Evaluation &#x23;1
+date: 2024/02/04 00:00:00
 subtitle: An Overall Digest of Classical Fluid Simulation Methods
 tags: [Papers, Fluid Simulation]
 author: Henry Han
