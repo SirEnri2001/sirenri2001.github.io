@@ -1,6 +1,0 @@
-onlyBuiltDependencies:
-  - deasync
-  - esbuild
-  - hexo-util
-  - puppeteer
-  - sharp
