@@ -1,0 +1,35 @@
+sidebar:
+  position: left # left/right分别对应左侧/右侧
+  avatar: avatar.jpg
+
+alternate: "学习新思想 争做盐与光"
+
+homeConfig:
+  gradient: false # 使用CSS渐变作为文章封面
+  # fixedCover 性能比默认的更好，且开启时将启用LCP优化和预加载
+  fixedCover: "/assets/2.png" # 主页面cover(为空则使用bing随机图片)
+
+modules:
+  player: false # 启用音乐播放器
+  fireworks: false # 启用鼠标点击烟花特效
+  unlazyHash: false # 启用unlazy hash预览图支持
+  visibilityListener: true # 启用可见度监听器
+  tabs: true # 启用选项卡扩展支持，如需开启 summary 功能请一并开启
+  quiz: true # 启用文章内问题扩展支持
+  fancybox: true # 启用 fancybox 支持（不建议禁用）
+
+social:
+  github: https://github.com/sirenri2001 || github || "#191717"
+  # google: https://plus.google.com/yourname || google
+  # twitter: https://twitter.com/yourname || twitter || "#00aff0"
+  # zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
+  # music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
+  # weibo: https://weibo.com/yourname || weibo || "#ea716e"
+  # about: https://about.me/yourname || address-card || "#3b5998"
+  # email: mailto:foo@xxx.com || envelope || "#55acd5"
+  # facebook: https://www.facebook.com/yourname || facebook
+  # stackoverflow: https://stackoverflow.com/ || stack-overflow
+  # youtube: https://youtube.com/yourname || youtube
+  # instagram: https://instagram.com/yourname || instagram
+  # skype: skype:yourname?call|chat || skype
+  # douban: https://www.douban.com/people/yourname/ || douban
