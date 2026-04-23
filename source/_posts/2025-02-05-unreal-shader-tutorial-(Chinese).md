@@ -4,7 +4,7 @@ title: Unreal Shader Tutorial - Chinese Ver.
 subtitle: Implement a Compute Shader and Graphics Shader from scratch
 tags: [Unreal Engine, Tutorial]
 author: Henry Han
-cover: https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-16.png
+cover: https://sirenri2001.github.io/assets/image-16.png
 ---
 
 # Chapter 1. 引擎编译和工程创建
@@ -19,17 +19,17 @@ https://dev.epicgames.com/documentation/en-us/unreal-engine/building-unreal-engi
 
 需要注意的是，编译UE引擎可能提示msvc版本不匹配。所以推荐在Visual Studio Installer中额外安装MSVC v14.36版本。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-5.png)
+![alt text](/assets/image-5.png)
 
 # 1.2 创建项目和Module
 
 编译结束后，启动UE引擎，创建C++空项目。不要勾选Starter Content和Raytracing。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image.png)
+![alt text](/assets/image.png)
 
 项目根目录按图创建目录和文件
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-11.png)
+![alt text](/assets/image-11.png)
 
 编辑器打开MyProject.uproject，在"Modules"里面加入
 
@@ -101,11 +101,11 @@ void FExampleComputeShaderModule::StartupModule()
 
 Explorer打开项目根目录，右键MyProject.uproject文件，选择Generate Visual Studio Project files，打开MyProject.sln，Solution Explorer找到Games/MyProject，右键Build。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-3.png)
+![alt text](/assets/image-3.png)
 
 Build结束后，点击Local Windows Debugger，启动项目。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-6.png)
+![alt text](/assets/image-6.png)
 
 # Chapter 2. 使用UE实现Global Compute Shader
 
@@ -495,11 +495,11 @@ void FShaderFunctionLibraryModule::StartupModule()
 
 编译，运行项目，新建Blueprint Actor，打开Blueprint Editor，在**Event Beginplay**后连接我们的`Execute ExampleComputeShader`，同时输出结果。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-8.png)
+![alt text](/assets/image-8.png)
 
 将这个Actor放置到场景中，启动游戏，发现打印结果。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-10.png)
+![alt text](/assets/image-10.png)
 
 恭喜！你已经成功创建了一个Compute Shader，并且成功运行。
 
@@ -783,21 +783,21 @@ static SHADERFUNCTIONLIBRARY_API void RenderExampleGraphicsShader(UTextureRender
 Content Browser创建：1. Blueprint Actor 2. Material 3. TextureRenderTarget2D
 Blueprint Actor在Event BeginPlay链接Render ExampleGraphicsShader, Variables创建Texture Render Target 2D的Object Reference，并设置成public，将这个变量拖入，与Render ExampleGraphicsShader函数输入链接
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-12.png)
+![alt text](/assets/image-12.png)
 
 打开材质，拖入刚创建的TextureRenderTarget2D，将RGB连至Base Color
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-13.png)
+![alt text](/assets/image-13.png)
 
 场景中放入刚创建的blueprint actor和一个static mesh cube，将blueprint actor的rendertarget设置成刚创建的。将static mesh cube材质设置成刚创建的。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-14.png)
+![alt text](/assets/image-14.png)
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-15.png)
+![alt text](/assets/image-15.png)
 
 点击运行，你的cube应该如下图所示。
 
-![alt text](https://sirenri2001.github.io/assets/img/unrealshadertutorial/image-16.png)
+![alt text](/assets/image-16.png)
 
 # FAQ
 

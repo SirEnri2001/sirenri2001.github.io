@@ -1,0 +1,26 @@
+# language
+zh-CN:
+  # items
+  favicon:
+    show: SirEnri的小站
+    hide: SirEnri的小站
+
+zh-HK:
+  favicon:
+    show: SirEnri的小站
+    hide: SirEnri的小站
+
+zh-TW:
+  favicon:
+    show: SirEnri的小站
+    hide: SirEnri的小站
+
+en:
+  favicon:
+    show: SirEnri's Blog
+    hide: SirEnri's Blog
+
+ja:
+  favicon:
+    show: SirEnri's Blog
+    hide: SirEnri's Blog
