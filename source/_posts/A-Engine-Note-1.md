@@ -4,6 +4,7 @@ title: 小引擎随笔(1) - 渲染RHI架构设计
 date: 2026/4/23 12:44:00
 tags: [A-Engine, Rendering]
 author: Henry Han
+cover: https://sirenri2001.github.io/assets/cornell.png
 ---
 
 # 引言
